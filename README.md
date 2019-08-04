@@ -3,6 +3,8 @@ Programmable sound generator for my ZX81 clone, with hardware for SD-card interf
 
 This is a clone of the ZON soundgenerator for my ZX81 clone ZX81+35 which you can find on github as ZX81plus35.
 
+The .zip file contains gerber and drill files for a PCB.
+
 This should work on a real ZX81, if you build an adapter between the (female) edge header connector, and an edge connector for the ZX81.
 
 This PCB was designed but was never tested, as I went on to design a color homecomputer (RhoCoCo) and abandoned my ZX81+35 efforts, see the ZX81plus35 page.
