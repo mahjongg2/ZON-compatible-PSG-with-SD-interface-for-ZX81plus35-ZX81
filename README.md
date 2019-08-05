@@ -1,4 +1,4 @@
-# PSG-for-ZX81-35-ZX81-clone
+# PSG-for-ZX81plus35-ZX81-clone
 Programmable sound generator for my ZX81 clone, with hardware for SD-card interface
 
 This is a clone of the ZON soundgenerator for my ZX81 clone ZX81+35 which you can find on github as ZX81plus35.
