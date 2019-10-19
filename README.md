@@ -11,7 +11,12 @@ This PCB was designed but was never tested, as I went on to design a color homec
 
 this A-Y-3-8912 PSG based programmable sound generator should be software compatible with ZON based software (dancing demon and others)
 
-I used the GPIO's of the 8912 to interface an SD-Card interface, with a bit-banged sd-card driver you should be able to read SD-cards.
+I used the GPIO's of the 8912 to interface an SD-Card interface, with a bit-banged sd-card driver you should be able to read SD-cards. The trick here is that I added pullups to ensure the outputs would not float during a read, so if you end a clock signal as high, then swich to read mode, the clock input stays high.
+
+Errors in schematic (and layout)
+
+It seems there is/was an error in the library I used for the 74LS02 quad nor port, as if the designed of the symbol took a 74LS00 and only changed the NAND symbols into NOR symbols, most of the pin numbers of the gates are actually wrong, with one output pin number switched with one input pin number. On a Ls02 pin 1 is an output, not an input.
+Consequently the PCB is also wrong.
 
 
 
