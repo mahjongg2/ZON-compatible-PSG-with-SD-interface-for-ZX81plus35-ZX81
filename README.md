@@ -21,8 +21,7 @@ This problem was fixed in the revision 2.1 files you will find here.
 
 PCB production files can be found in the the .ZIP file, and I uploaded a component overview drawing to easy the assembly.
 
-The main sound generator function has been confirmed to work, but the code to read an SD-card is not yet ready, but AFAIK is being worked on.
-
+The main sound generator function has been confirmed to work, and I just heard that with some small patches a Thomas Freiberg got storing and loading ZX-81 games to work, so my next job will be to create version 2.2 updated with his patches! You can read more about it here: https://forums.raspberrypi.com/viewtopic.php?p=1983650#p1983620
 
 
 
