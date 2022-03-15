@@ -23,7 +23,7 @@ PCB production files can be found in the the .ZIP file, and I uploaded a compone
 
 The main sound generator function has been confirmed to work, and I just heard that with some small patches a Thomas Freiberg got storing and loading ZX-81 games to work, so my next job will be to create version 2.2 updated with his patches! You can read more about it here: https://forums.raspberrypi.com/viewtopic.php?p=1983650#p1983620
 
-
+I will also start working on a version for real ZX-81's, and my ZX-81+38 clone, this will be designed using KiCad.
 
 
 
