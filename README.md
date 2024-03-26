@@ -29,3 +29,5 @@ The ZX_SPI_SD_RU12345_V120EXT.rom file contains the firware needed to load files
 If PSG is connected and SD card inserted start with RND USR 12345. The SD card now can contain 26 ROM files (A – Z) shown in 2 columns.
 
 This software (and the modification to the SPI interface were done by a fan called Thomas Schilling, he also designed a ZX-81 compatible cartridge for himself, but I'm planning to do my own which will be compatible withmy ZX-81plus38, and with a real ZX-81. He is busy with a firmware version that can also WRITE files to the SD-card.
+
+I also added an example game called DAN's revenge, you can put this game on the SD-Card and play it. it is the file DR20GO10.ROM
