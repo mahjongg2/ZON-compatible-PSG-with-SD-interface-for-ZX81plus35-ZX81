@@ -25,5 +25,7 @@ The main sound generator function has been confirmed to work, and I just heard t
 
 I will also start working on a version for real ZX-81's, and my ZX-81+38 clone, this will be designed using KiCad.
 
+The ZX_SPI_SD_RU12345_V120EXT.rom file contains the firware needed to load files from an SD-Card that is formatted as FAT32. The .rom file can be programmed into eeprom starting at 2000h. the ZX81 ROM goes from 0000h – 1FFFh, the G007 from 2800h – 2FFEh and FAT-driver 3039h – 3A83h.
+If PSG is connected and SD card inserted start with RND USR 12345. The SD card now can contain 26 ROM files (A – Z) shown in 2 columns.
 
-
+This software (and the modification to the SPI interface were done by a fan called Thomas Schilling, he also designed a ZX-81 compatible cartridge for himself, but I'm planning to do my own which will be compatible withmy ZX-81plus38, and with a real ZX-81. He is busy with a firmware version that can also WRITE files to the SD-card.
